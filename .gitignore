@@ -1,0 +1,25 @@
+# Virtual env
+svenv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Data
+data/raw/
+data/processed/
+data/final/
+
+# Trained models
+models/
+
+# Lightning logs
+lightning_logs/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
