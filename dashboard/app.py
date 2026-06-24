@@ -405,7 +405,7 @@ with i1:
     padding:20px;
     border-radius:15px;
     border:1px solid #374151;
-    height:220px;
+    height:230px;
     ">
     
     <h3 style="color:#60a5fa;">
@@ -416,7 +416,8 @@ with i1:
     {flare_prob:.1f}%
     </h1>
 
-    <p style="color:#9ca3af;">
+    <p style="color:#9ca3af;
+    height:230px;">
     Probability of flare occurrence
     within next 15 minutes
     </p>
@@ -457,7 +458,7 @@ with i2:
     padding:20px;
     border-radius:15px;
     border:1px solid #374151;
-    height:220px;
+    height:230px;
     ">
 
     <h3 style="color:{flare_color};">
@@ -469,8 +470,8 @@ with i2:
     </h1>
 
     <p style="color:#9ca3af;">
-    Estimated severity level based on
-    fused SoLEXS + HEL1OS activity
+    Estimated severity level 
+    
     </p>
 
     </div>
