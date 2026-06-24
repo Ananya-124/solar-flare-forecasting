@@ -405,19 +405,22 @@ with i1:
     padding:20px;
     border-radius:15px;
     border:1px solid #374151;
-    height:230px;
+    height:220px;
     ">
     
-    <h3 style="color:#60a5fa;">
+    <h3 style="color:#60a5fa;
+    font-size:25px;">
     🎯 Forecast
     </h3>
 
-    <h1 style="color:white;">
+    <h1 style="color:white;
+    font-size:30px;">
     {flare_prob:.1f}%
     </h1>
 
     <p style="color:#9ca3af;
-    height:230px;">
+    height:220px;
+    font-size:18px;">
     Probability of flare occurrence
     within next 15 minutes
     </p>
@@ -458,18 +461,23 @@ with i2:
     padding:20px;
     border-radius:15px;
     border:1px solid #374151;
-    height:230px;
+    height:220px;
     ">
 
-    <h3 style="color:{flare_color};">
+    <h3 style="color:{flare_color};
+    font-size:25px;">
     🔥 Estimated Flare Class
     </h3>
 
-    <h1 style="color:{flare_color};">
+    <h1 style="color:{flare_color};
+    font-size:30px;">
     {flare_class}
     </h1>
 
-    <p style="color:#9ca3af;">
+    <p style="color:#9ca3af;
+    font-size:18px;
+    height:220px;
+    ">
     Estimated severity level 
     
     </p>
@@ -501,11 +509,13 @@ with i3:
     height:220px;
     ">
 
-    <h3 style="color:#c084fc;">
+    <h3 style="color:#c084fc;
+    font-size:25px;">
     ⚡ Sensor Intelligence
     </h3>
 
-    <h1 style="color:white;">
+    <h1 style="color:white;
+    font-size:30px;">
     {hardness_ratio:.3f}
     </h1>
 
